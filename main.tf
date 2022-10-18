@@ -27,9 +27,6 @@ module "securitygroup" {
   pub_subnet2_id = module.networking.pub_subnet2_id
   pvt_subnet3_id = module.networking.pvt_subnet3_id 
 
-#   web_subnet_id  = module.networking.websubnet_id
-#   app_subnet_id  = module.networking.appsubnet_id
-#   db_subnet_id   = module.networking.dbsubnet_id
 }
 
 
