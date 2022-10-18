@@ -5,9 +5,7 @@ variable "pub_subnet1_cidr" {}
 variable "pub_subnet2_cidr" {}
 variable "pvt_subnet3_cidr" {}
 
-# variable "pub_subnet1_id" {}
-# variable "pub_subnet2_id" {}
-# variable "pvt_subnet3_id" {}
+
 # public vm1 variables (window server1)
 variable "pub1_host_name"{}
 variable "pub1_username" {}
