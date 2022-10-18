@@ -16,9 +16,7 @@ module "networking" {
   pub_subnet1_cidr = var.pub_subnet1_cidr
   pub_subnet2_cidr = var.pub_subnet2_cidr
   pvt_subnet3_cidr = var.pvt_subnet3_cidr
-#   websubnetcidr  = var.websubnetcidr
-#   appsubnetcidr  = var.appsubnetcidr
-#   dbsubnetcidr   = var.dbsubnetcidr
+
 }
 
 module "securitygroup" {
